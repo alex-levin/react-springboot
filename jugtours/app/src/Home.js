@@ -4,6 +4,7 @@ import AppNavbar from './AppNavbar';
 import { Link } from 'react-router-dom';
 import { Button, Container } from 'reactstrap';
 
+
 class Home extends Component {
   render() {
     return (
@@ -17,9 +18,10 @@ class Home extends Component {
   }
 }
 
+
 /*
 This is preferable approach that works with Firefox too:
-https://tylermcginnis.com/react-router-programmatically-navigate/
+https://tylermcginnis.com/react-router-programmatically-navigate/ 
 class Home extends Component {
     handleClick = () => {
         this.props.history.push('/groups');
@@ -36,5 +38,6 @@ class Home extends Component {
   }
 }
 */
+
 
 export default Home;

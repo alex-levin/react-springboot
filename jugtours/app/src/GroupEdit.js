@@ -43,7 +43,7 @@ class GroupEdit extends Component {
     event.preventDefault();
     const {item} = this.state;
 
-    /* Error: PUT http://localhost:3000/api/group 405 (Method Not Allowed) */
+    /* Error: PUT http://localhost:3000/api/group 405 (Method Not Allowed)
     await fetch('/api/group', {
       method: (item.id) ? 'PUT' : 'POST',
       headers: {
@@ -52,8 +52,8 @@ class GroupEdit extends Component {
       },
       body: JSON.stringify(item),
     });
+    */
     
-    /*
     await fetch((item.id) ? '/api/group/'+(item.id) : '/api/group', {
         method: (item.id) ? 'PUT' : 'POST',
         headers: {
@@ -62,7 +62,7 @@ class GroupEdit extends Component {
         },
         body: JSON.stringify(item),
     });
-    */
+    
 
     this.props.history.push('/groups');
   }
