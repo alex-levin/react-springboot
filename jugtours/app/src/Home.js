@@ -18,7 +18,7 @@ class Home extends Component {
 }
 
 /*
-This is prefferrable approach that works with Firefox too:
+This is preferable approach that works with Firefox too:
 https://tylermcginnis.com/react-router-programmatically-navigate/
 class Home extends Component {
     handleClick = () => {
