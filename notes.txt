@@ -1,0 +1,6 @@
+npm install -g create-react-app
+cd jugtours
+create-react-app app
+cd app
+npm install --save bootstrap@4.1.2 react-cookie@2.2.0 react-router-dom@4.3.1 reactstrap@6.3.0
+npm start
