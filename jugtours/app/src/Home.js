@@ -18,7 +18,8 @@ class Home extends Component {
 }
 
 /*
-Wokaround for Firefox https://stackoverflow.com/questions/51665178/link-of-react-router-dom-is-not-working-in-firefox/51665318
+This is prefferrable approach that works with Firefox too:
+https://tylermcginnis.com/react-router-programmatically-navigate/
 class Home extends Component {
     handleClick = () => {
         this.props.history.push('/groups');
